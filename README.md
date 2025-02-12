@@ -76,4 +76,3 @@ This project demonstrates proficiency in:
 - Object-oriented programming
 - Canvas manipulation
 - Event handling
-- User interface design
