@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ormen</title>
+    <link rel="stylesheet" href="css/ormen.css">
+</head>
+
+<body>
+    <div class="container">
+        <p id="foodChangeRateTimer"> Matbiten försvinner inom: 0</p>
+        <canvas id="myCanvas" height="400" width="400"></canvas>
+        <br>
+        <div class="menu">
+            <button id="btnStart/Pause">Starta</button>
+            <br>
+            <div class="display">
+                <p id="textAntaletUppätnaMumsbitar">Poäng: 0</p>
+                <p id="högstaPoäng">Högsta poäng: 0</p>
+                <p id="nivåDisplay">Nivå: 1</p>
+            </div>
+            <div class="settingsMenu" id="settingsMenu">
+                <select name="borderControlsOptions" id="borderMovementOption">
+                    <option value="true">Kan gå utanför gränserna</option>
+                    <option value="false">Kan inte gå utanför gränserna</option>
+                </select>
+                <p>Start Level (1 - 8)</p>
+                <input type="number" id="startLevelInput" min="1" max="8" value="1">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="javascript/ormen.js"></script>
+<script src="javascript/ai.js"></script>
+<script src="javascript/block-spawner.js"></script>
+
+</html>
