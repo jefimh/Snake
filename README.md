@@ -20,8 +20,8 @@ An advanced implementation of the classic Snake game built with vanilla JavaScri
 - Object-oriented design for game entities
 - Modular code architecture split across multiple files:
  - [`/src/js/ormen.js`](/src/js/ormen.js): Core game logic and mechanics
- - [`/src/js/ai.js`](/src/js/snake-ai.js): Enemy snake AI implementation 
- - [`/src/js/block-spawner.js`](/src/js/obstacles.js): Obstacle generation and management
+ - [`/src/js/snake-ai.js`](/src/js/snake-ai.js): Enemy snake AI implementation 
+ - [`/src/js/obstacles.js`](/src/js/obstacles.js): Obstacle generation and management
 
 ## AI Implementation
 The enemy snake uses a distance-based pathfinding algorithm that:
